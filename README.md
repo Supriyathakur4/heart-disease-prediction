@@ -1,21 +1,54 @@
-# ❤️ Heart Disease Prediction App
+Heart Disease Prediction App
 
-An AI-powered tool to predict heart disease risk based on patient health parameters.  
-Built with **scikit-learn, Flask, and Streamlit**.
+This is my project for predicting heart disease using machine learning and Streamlit.
 
----
+🔗 Live App Link: https://supriyathakur4-heart-disease-prediction.streamlit.app
 
-## 🚀 Features
-- Machine Learning model trained on **heart disease dataset**
-- Interactive **Streamlit Dashboard**:
-  - Patient data input via sidebar
-  - Prediction (Heart Disease / No Heart Disease)
-  - Probability score
-  - Risk level indicators (Low, Medium, High)
-  - PDF report download for patients
-- **Flask API** for programmatic access
-- Batch prediction support (via API / CSV)
+Features
 
----
+Takes patient details like age, cholesterol, blood pressure, etc.
 
-## 📂 Project Structure
+Predicts whether there is a chance of heart disease.
+
+Shows results in a simple and interactive way.
+
+Easy to use from any browser (no setup needed).
+
+Tools & Libraries Used
+
+Python
+
+Streamlit
+
+scikit-learn
+
+pandas, numpy
+
+matplotlib, plotly
+
+Dataset & Model
+
+Used the UCI Heart Disease dataset.
+
+Preprocessed the data (cleaning, scaling, encoding).
+
+Trained a machine learning model (e.g. Logistic Regression / Random Forest).
+
+Evaluated the accuracy of the model.
+
+How to Run Locally
+
+If you want to run it on your own computer:
+
+git clone https://github.com/Supriyathakur4/heart-disease-prediction.git
+cd heart-disease-prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run streamlit_app.py
+
+Author
+
+Supriya Thakur
