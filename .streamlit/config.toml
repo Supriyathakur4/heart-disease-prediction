@@ -1,0 +1,7 @@
+[theme]
+base="light"
+primaryColor="#1976D2"            # Medical blue
+secondaryBackgroundColor="#F5F5F5" # Soft gray background
+backgroundColor="#FFFFFF"          # White for clean look
+textColor="#000000"                # Black text
+font="sans serif"

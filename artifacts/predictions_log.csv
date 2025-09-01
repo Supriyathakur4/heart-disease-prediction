@@ -1,0 +1,3 @@
+Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope,Prediction,Probability,Risk_Level,Explanation
+50,M,ATA,120,200,0,Normal,150,N,1.0,Up,0,0.11,Low,No major risk factors detected
+50,M,ATA,120,200,0,Normal,150,N,1.0,Up,0,0.11,Low,No major risk factors detected
