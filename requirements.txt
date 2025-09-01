@@ -1,7 +1,10 @@
+﻿streamlit
 scikit-learn
+pandas
+numpy
 joblib
-flask
-streamlit
 plotly
 fpdf
-pandas
+requests
+flask
+flask-cors
